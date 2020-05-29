@@ -22,6 +22,11 @@ class Battle < Sinatra::Base
     erb :play
   end
 
+  post '/score' do
+   p @player_2_name
+
+  end
+
 
   # start the server if ruby file executed directly
   run! if app_file == $0
