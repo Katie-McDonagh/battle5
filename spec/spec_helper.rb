@@ -12,6 +12,8 @@
 # the additional setup, and require it from the spec files that actually need
 # it.
 #
+require_relative './features/web_helpers'
+
 ENV['RACK_ENV'] = 'test'
 
 # require our Sinatra app file
